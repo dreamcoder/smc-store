@@ -1,0 +1,29 @@
+{
+  "name": "smc-store",
+  "version": "0.0.3",
+  "description": "smc-store",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "copy": "copyfiles  package.json dist",
+    "build": "tsc && npm run copy",
+    "test": "karma start"
+  },
+  "author": "admin@seami.cloud",
+  "keywords": [
+    "store",
+    "cookie",
+    "smc"
+  ],
+  "devDependencies": {
+    "copyfiles": "latest",
+    "@types/jasmine": "^3.4.0",
+    "jasmine-core": "^3.3.0",
+    "karma": "^4.3.0",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-cli": "^2.0.0",
+    "karma-jasmine": "^2.0.1",
+    "karma-typescript": "latest",
+    "typescript": "~4.0.5"
+  }
+}
